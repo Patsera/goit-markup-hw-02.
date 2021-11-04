@@ -20,12 +20,28 @@
 }
 
 body {
-    background-color: var (var(--bg-color));
+    background-color: var(--bg-color);
     color: var(--primary-text-color);
-}
+    
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    font-style: 400;
+    font-weight: 400;
 
+}
+/* Logo */
 .logo {
     color: var(--title-text-color);
+
+    font-family: Raleway, sans-serif;
+    text-decoration: none;
+    
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19px;
+
+
 } 
 
 .logo:hover {
@@ -36,6 +52,13 @@ body {
 
 .site-nav .link {
     color: var(--accent-color);
+   
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.02em;
+text-decoration: none;
 }   
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -48,29 +71,80 @@ body {
 /* Hero */
 .hero-title {
     color: var(--primary-white-color);
+    
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 }  
 
 /* Section */
 
 .section-title {
     color: var(--title-text-color);
+ 
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16px;
+text-align: center;
+
 } 
 
 /* Features */
     .feature-list .title {
         color: var(--title-text-color);
+        background-color: #E5E5E5;
+        list-style: none;
+        
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14px;
+text-transform: uppercase;
     }
+
+    .feature-list .text {
+
+        
+        font-size: 14px;
+        line-height: 1.71px;
+    
+    }
+    
     /* Team */
 
     .team-list .title {
         color: var(--title-text-color)
-    }
+        list-style: none;
+        background-color: #F5F4FA;
+        font-weight: 500;
+        line-height: 1.18px;
+        list-style: none;
 
+       
+    }
+    .team-list .text {
+        
+
+
+line-height: 1.18px;
+list-style: none;
+
+    }
      /* Button */
      
      .button {
          color: var(--primary-white-color);
          background-color: var(--accent-color);
+         text-decoration: none;
+         
+font-weight: 700;
+line-height: 1.87px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
         }
         
         .button.primary {
