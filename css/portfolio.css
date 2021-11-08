@@ -117,23 +117,18 @@ background-color: var(--bg-color);
 } 
 /* Section */
 
-.section-list .title {
-        color: var(--primary-text-color);
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2;
-        letter-spacing: 0.06em;
-        list-style: none;
-    }
-
-    .section-text {
-        color:var(--text-color)
-        line-height: 1,9;
-        list-style: none;
-        }
-    
-    
-    
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+      }
+      /* Examples */
+  
+  .example-list {
+    color: var(--text-color);
+    line-height: 1.9;
    
-
-
+  }
+    
