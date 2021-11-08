@@ -126,7 +126,7 @@ background-color: var(--bg-color);
       }
       /* Examples */
   
-  .example-list {
+  .example-list{
     color: var(--text-color);
     line-height: 1.9;
    
