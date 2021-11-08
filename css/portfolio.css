@@ -105,14 +105,14 @@ background-color: var(--bg-color);
         text-align: center;
         color: var(--primary-text-color);
         background-color: var(--secondary-bg-color);
-        }
+        
     }
 
     .button-filter:hover,
     .button-filter:focus {
         color: var(--primary-text-color);
         background-color: var(--bg-color);
-        }
+        
 
 } 
 /* Section */
