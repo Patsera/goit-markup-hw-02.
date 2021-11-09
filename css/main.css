@@ -1,83 +1,4 @@
-/* основной цвет  текста rgba(33, 33, 33, 1) */
-/* вторичный цвет текста rgba(117, 117, 117, 1) */
-/* акцент rgba(33, 150, 243, 1) */
-
-/* белый #FFFFFF */
-/* вторичный цвет фона #E5E5E5;*/
-
-.list {
-    list-style: none;
-  }
-
-:root {
-    --primary-text-color: rgba(33, 33, 33, 1);
-    --title-text-color: rgba(33, 33, 33, 1);
-    --text-color: rgba(117, 117, 117, 1);
-    --accent-color:rgba(33, 150, 243, 1);
-    --white-color:#FFFFFF; 
-    --bg-color:  #FFFFFF;
-    --secondary-bg-color:#F5F4FA;
-    
-    
-}
-
-body {
-    background-color: var(--bg-color);
-    color: var(--primary-text-color);
-    
-    font-family: Roboto, sans-serif;
-    letter-spacing: 0.03em;
-    font-size: 16px;
-    font-style: 400;
-    font-weight: 400;
-
-}
-/* Logo */
-.logo {
-
-color: var(--primary-text-color);
-font-family: Raleway, sans-serif;
-text-decoration: none;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.2;
-
-} 
-
-.logo:hover {
-    color: var(--accent-color);
-} 
-
-/* Site nav */
-
-.header {
-    background-color: var(--primary-white-color);
-}  
-
-.nav-item {
-
-font-weight: 500;
-font-size: 14px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-text-decoration: none;
-}   
-.nav-item.active {
-color: var(--accent-color);
-font-weight: 500;
-font-size: 14px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-} 
-.nav-item:hover,
-.nav-item:focus {
-    color: var(--accent-color);
-}
-.nav-contacts {
-    color: var(--text-color);
-}   
-
-
+  
 /* Hero */
 .hero-title {
     color: var(--primary-white-color);
@@ -129,6 +50,7 @@ line-height: 1.7;
 .button {
     color: var(--title-text-color);
     background-color: var(--primary-white-color);
+    list-style: none;
   }
   
   .button.primary {
@@ -140,9 +62,11 @@ line-height: 1.7;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    list-style: none;
   }
   
   .button.secondary {
     color: var(--accent-color);
     background-color: var(--primary-white-color);
+    list-style: none;
   }
