@@ -13,8 +13,10 @@
   --white-color: #ffffff;
   --bg-color: #ffffff;
   --secondary-bg-color: #f5f4fa;
+  --bg-color-for-hero:#2F303A;
+  --third-bg-color:#188CE8;
+  --bg-color-for-team:#F5F4FA;
 }
-
 body {
   background-color: var(--bg-color);
   color: var(--primary-text-color);
@@ -41,6 +43,11 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   list-style: none;
+}
+
+.button-primary-filter:hover,
+.button-primary-filter:focus {
+  background-color: var(--third-bg-color);
 }
 
 .button.secondary {
@@ -77,6 +84,7 @@ body {
 }
 .logo :hover {
   color: var(--primary-text-color);
+ 
   /* Site nav */
 }
 .header {
@@ -115,7 +123,14 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 }
+
+.hero-color {
+  background-color: var(--bg-color-for-hero);
+
+}
+
 /* Section */
+
 
 .section-subtitle {
   color: var(--title-text-color);
@@ -161,6 +176,7 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  background-color: var(--bg-color-for-team);
 }
 
 /* Examples */
@@ -171,8 +187,14 @@ body {
   line-height: 1.9;
 }
 
+/* Footer */
+.footer-list {
+background-color: var(--bg-color-for-hero);
+}
+
 /* buttons */
 
+  
 .portfolio-button {
   list-style: none;
   font-family: inherit;
@@ -208,6 +230,6 @@ body {
 
 .portfolio-button-filter:hover,
 .portfolio-button-filter:focus {
-  color: var(--primary-text-color);
-  background-color: var(--bg-color);
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }
