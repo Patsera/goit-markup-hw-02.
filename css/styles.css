@@ -16,6 +16,10 @@
   --bg-color-for-hero:#2F303A;
   --third-bg-color:#188CE8;
   --bg-color-for-team:#F5F4FA;
+  --bg-color-for-footer:#2F303A;
+  --text-color-for-footer: rgba(255, 255, 255, 1);
+  --second-color-for-footer:rgba(255, 255, 255, 0.6);
+
 }
 body {
   background-color: var(--bg-color);
@@ -83,10 +87,11 @@ body {
   line-height: 1.2px;
 }
 .logo :hover {
-  color: var(--primary-text-color);
+  color: var(--accent-color);
+}
  
   /* Site nav */
-}
+
 .header {
   background-color: var(--primary-white-color);
 }
@@ -188,9 +193,30 @@ body {
 }
 
 /* Footer */
-.footer-list {
-background-color: var(--bg-color-for-hero);
+.footer-list{
+color:var(--text-color-for-footer);
+background-color:var(--bg-color-for-footer);
+
+} 
+.contact-list{
+  color:var(--second-color-for-footer);
+ } 
+.logo-footer {
+  color: var(--white-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  
 }
+.logo-webstudio-footer {
+  color: var(--accent-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2px;
+ }
 
 /* buttons */
 
